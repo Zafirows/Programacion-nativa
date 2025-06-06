@@ -81,7 +81,7 @@ fun ProfileSection() {
         )
         // Nombre completo en texto grande y negrita
         Text(
-            text = "Manuel Abraham Flores Ramirez",
+            text = "Karla Zafiro Pérez Anastasio",
             fontSize = 26.sp,
             color = Color.White,
             fontWeight = FontWeight.Bold
@@ -103,11 +103,11 @@ fun ContactSection() {
         modifier = Modifier.padding(horizontal = 16.dp)
     ) {
         // Línea de contacto: Teléfono
-        ContactInfoRow(icon = Icons.Default.Phone, contactText = "+52 833 844 0269")
+        ContactInfoRow(icon = Icons.Default.Phone, contactText = "+52 833 149 8400")
         // Línea de contacto: Nombre de usuario o red social
-        ContactInfoRow(icon = Icons.Default.Share, contactText = "@Manuel Abraham Flores Ramirez")
+        ContactInfoRow(icon = Icons.Default.Share, contactText = "@Karla Zafiro Pérez Anastasio")
         // Línea de contacto: Correo electrónico
-        ContactInfoRow(icon = Icons.Default.Email, contactText = "L20070511@cdmadero.tecnm.mx")
+        ContactInfoRow(icon = Icons.Default.Email, contactText = "L20070574@cdmadero.tecnm.mx")
     }
 }
 
